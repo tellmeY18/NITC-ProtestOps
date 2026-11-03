@@ -13,7 +13,7 @@ Run all of these from the repository root. Any failure stops the release.
 
 ```bash
 ruby tools/audit/sensitive_scan.rb .
-ruby tools/audit/image_check.rb outputs/
+ruby tools/audit/image_check.rb outputs/   # local renders only; never committed
 ruby tools/audit/claims_check.rb analysis/**/claims.yml
 ```
 

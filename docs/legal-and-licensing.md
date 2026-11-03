@@ -4,7 +4,7 @@
 
 ## 1. The repository licence
 
-**GPL-3.0-or-later** for the whole repository: code, templates, documentation and the published decks. See `LICENSE`.
+**GPL-3.0-or-later** for the whole repository: code, templates and documentation. See `LICENSE`.
 
 What that means in practice:
 

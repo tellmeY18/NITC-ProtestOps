@@ -13,7 +13,7 @@ A public, GPL-licensed toolkit for student journalists and organisers at NIT Cal
 - scrapers and parsers for public institutional documents,
 - a fact-check and claim-tracking format,
 - poster / carousel / story templates,
-- and three finished advocacy decks in `outputs/`.
+- and a local-only `outputs/` folder where posters are rendered (git-ignored, never pushed).
 
 It is **political speech about public institutions**, produced by students. It is not neutral, and it is not pretending to be. It is, however, committed to being **accurate, sourced and correctable**.
 
@@ -28,7 +28,7 @@ It is **political speech about public institutions**, produced by students. It i
 5. **Never strengthen a claim in editing.** "No paper was shown" must not become "no sanction exists." "Paraphrase" must not acquire quotation marks. "Reported" must not become "confirmed."
 6. **Never add a private individual's name to a public artefact.** Public officials acting in their public role may be named. Students, complainants, and bystanders may not.
 7. **Never publish a deck without running the audit.** `ruby tools/audit/sensitive_scan.rb .` must pass, and the claim table must be complete.
-8. **Never rewrite history in `outputs/`.** Published decks are receipts. Corrections get a new version and a note in `outputs/<post>/CORRECTIONS.md`; do not silently edit a published slide.
+8. **Never commit anything under `outputs/`.** Posters are local-only and git-ignored. Do not remove or loosen the `outputs/*` rule. Corrections to a published claim go in `CORRECTIONS.md` at the repo root; do not silently edit a published slide.
 
 If a task requires breaking one of these, stop and explain why.
 
@@ -56,7 +56,7 @@ If a task requires breaking one of these, stop and explain why.
 | `analysis/` | claim → source tables | yes |
 | `research/notes/` | reviewed, non-personal excerpts | yes |
 | `research/senate/`, `research/bog/` | raw cache | **no** |
-| `outputs/` | finished decks | yes |
+| `outputs/` | local renders and posters | **no** |
 | `private/` | local-only | **no** |
 
 ### Naming
@@ -166,6 +166,6 @@ A change is done when:
 - [ ] the copy matches the strength of the evidence,
 - [ ] the source panel is updated,
 - [ ] `sensitive_scan`, `image_check` and `claims_check` pass,
-- [ ] the output is in `outputs/` and the contact sheet is in `outputs/_review/`,
-- [ ] `CORRECTIONS.md` is updated if a published claim changed,
+- [ ] the render is in `outputs/` (local only; never committed),
+- [ ] `CORRECTIONS.md` (repo root) is updated if a published claim changed,
 - [ ] the commit message says what changed and why.

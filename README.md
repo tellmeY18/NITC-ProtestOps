@@ -6,7 +6,7 @@ This repository is the working kit behind a set of public posts about student go
 
 Everything here is public-source. Everything here can be checked. If a claim cannot survive the check, it does not go on a slide.
 
-> **Status:** scaffold. The tools, templates and skills are functional but deliberately small. The published decks in `outputs/` are the reference implementation.
+> **Status:** scaffold. The tools, templates and skills are functional but deliberately small. Posters are rendered locally from the templates; they are not stored here.
 
 ---
 
@@ -26,15 +26,16 @@ The point is not to make better propaganda. The point is to make **accountable a
 
 ---
 
-## The three published decks
+## Outputs stay local
 
-| Output | What it covers | Files |
-|---|---|---|
-| [`outputs/post-01-sac-slides/`](outputs/post-01-sac-slides/) | The SAC era, the 2024 restructure, and the call to organise. 12 panels. | `SAC-slides.pcraft`, `01`–`12` PNGs, `copy.md` |
-| [`outputs/post-02-sac-to-sgb/`](outputs/post-02-sac-to-sgb/) | A clause-by-clause crash course: what the SAC was, what the SGB is, what moved. | `SAC-to-SGB.pcraft`, 20 PNGs, `copy.md`, `sources.wiki` |
-| [`outputs/post-03-revival-day1/`](outputs/post-03-revival-day1/) | Day 1 of the revival: the 2 Nov 2026 meeting, the Speaker, C-Gate, the statue, the minutes. 20 panels + 6 story frames. | `Revival-day1.pcraft`, `stories.pcraft`, PNGs, `copy.md`, `PLAN.md`, `stories.md`, `caption.txt` |
+The finished posters, decks and exports (`outputs/`) are **not published in this repository**. `outputs/` is git-ignored: each organiser keeps their own posters on their own machine and publishes them on their own channels. What the repo publishes is everything needed to make, check and defend one:
 
-`outputs/_review/` holds contact sheets for a fast visual check. The editable `.pcraft` masters are included so the decks can be corrected and re-exported rather than rebuilt.
+- the **tools** that render posters and carousels (`tools/render/`),
+- the **templates** to start from (`templates/`), including the reading-circle story,
+- the **claim tables and sources** a poster must stand on (`analysis/`, `research/notes/`),
+- the **method, ethics and fact-check rules** (`docs/`, `ETHICS.md`, `FACTCHECK.md`).
+
+Renders land in `outputs/_review/` (local). Public corrections go in [`CORRECTIONS.md`](CORRECTIONS.md).
 
 ---
 
@@ -89,7 +90,7 @@ ruby tools/render/poster.rb templates/poster/example.yml
 ├── templates/                 # poster, carousel and story starters
 ├── analysis/                  # claim tables and source maps
 ├── research/                  # notes (raw cache is ignored)
-├── outputs/                   # finished, publishable decks
+├── outputs/                   # local-only renders (git-ignored)
 └── private/                   # local-only; ignored by git
 ```
 
@@ -135,7 +136,7 @@ If you are a person named in a deck and you believe something is wrong, see [`SE
 
 ## Licence
 
-**GNU General Public License v3.0 or later** for the whole repository — code, templates, documentation and the published decks. See [`LICENSE`](LICENSE).
+**GNU General Public License v3.0 or later** for the whole repository — code, templates and documentation. See [`LICENSE`](LICENSE).
 
 You may copy, modify and redistribute this work, including commercially, provided you preserve the licence and make the source available. Derivative decks must carry the same licence. Attribution to *NITC Protest Ops* is requested but is not an extra condition.
 

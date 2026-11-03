@@ -58,7 +58,7 @@ Collect the minimum. If a document has 40 pages and you need one clause, keep th
 
 - `research/` cache: delete when the post ships, or keep locally if you are still working on the topic.
 - `private/`: delete when the correspondence is resolved.
-- `outputs/`: keep. It is the public record.
+- `outputs/`: local-only and git-ignored. Delete posters you no longer need.
 - `analysis/`: keep. It is the receipt.
 
 ## A person's request
@@ -68,7 +68,7 @@ If someone asks to remove their personal data:
 1. remove it within 7 days,
 2. confirm in writing what was removed,
 3. if it was in git history, rewrite history and force-push, then ask mirrors to update,
-4. record the incident in `outputs/_review/incidents.md` without repeating the data.
+4. record the incident in `private/incidents.md` without repeating the data.
 
 Do not argue about whether the data was already public. Remove it.
 

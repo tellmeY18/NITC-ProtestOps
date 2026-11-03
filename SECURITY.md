@@ -69,5 +69,5 @@ We assume:
 2. **Assess** — was it pushed? To where? Who has it?
 3. **Purge** — if pushed, rewrite history (`git filter-repo`) and force-push, then ask mirrors to update.
 4. **Notify** — tell affected people plainly what was exposed and for how long.
-5. **Record** — add a dated entry to `outputs/_review/incidents.md` (without repeating the data).
+5. **Record** — add a dated entry to `private/incidents.md` (without repeating the data).
 6. **Fix the rule** — add a test or an ignore pattern so it cannot recur.

@@ -174,10 +174,4 @@ ruby tools/render/carousel.rb templates/story/example.yml --size 1080x1920
 
 ## 8. Reference
 
-The three decks in `outputs/` are the reference implementation:
-
-- `post-01-sac-slides/` — the original 12-panel system, no masthead.
-- `post-02-sac-to-sgb/` — 20 panels, the crash-course structure.
-- `post-03-revival-day1/` — 20 panels, the masthead system, the most developed.
-
-The design spec for post 3 is in `outputs/post-03-revival-day1/PLAN.md`.
+The renderers in `tools/render/` and the briefs in `templates/` implement this system. Posters built with them are kept locally, not in this repository.

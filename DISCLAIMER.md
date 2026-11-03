@@ -6,7 +6,7 @@ This is an independent, student-run project. It is not published by, endorsed by
 
 ## Opinion, criticism and fair comment
 
-The decks in `outputs/` mix **documented fact**, **reported speech**, **analysis** and **opinion**. They are political speech and criticism of a public institution. Editorial sentences — including headlines, captions and the "what it adds up to" panels — are opinion and should be read as such.
+The posters and decks produced with this toolkit mix **documented fact**, **reported speech**, **analysis** and **opinion**. They are political speech and criticism of a public institution. Editorial sentences — including headlines, captions and the "what it adds up to" panels — are opinion and should be read as such.
 
 Where a slide states a fact, the source is named on the slide or in the accompanying `copy.md` claim table. Where a claim is a paraphrase or an inference, the claim table says so.
 
@@ -18,7 +18,7 @@ We try to be accurate. We will get things wrong. If you find an error:
 - email the maintainers (see `GOVERNANCE.md`), or
 - use the right-of-reply route in `SECURITY.md`.
 
-Corrections are published in `outputs/<post>/CORRECTIONS.md` and, where the artefact allows, on the artefact itself.
+Corrections are published in `CORRECTIONS.md` (repo root) and, where the artefact allows, on the artefact itself.
 
 ## Named individuals
 

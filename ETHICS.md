@@ -36,7 +36,7 @@ The design system uses no photographs of people. This is deliberate: a face turn
 
 Every published deck carries a source panel. Every correction path is public. Before publishing a claim that names a person, we make a good-faith attempt to put the claim to them, or to the office they hold, and we record that attempt.
 
-If they reply, we publish the reply — in the deck, in `outputs/<post>/CORRECTIONS.md`, or both. A right of reply is not a concession. It is what separates criticism from a pile-on.
+If they reply, we publish the reply — in the deck, in `CORRECTIONS.md` (repo root), or both. A right of reply is not a concession. It is what separates criticism from a pile-on.
 
 ## 7. Corrections are not failures
 

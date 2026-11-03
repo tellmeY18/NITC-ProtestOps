@@ -17,7 +17,7 @@ Use when the argument is too long for a carousel but too important to cut.
 
 ## Steps
 
-1. **Write the long text first.** `outputs/<post>/stories.md`, numbered paragraphs. Do not design yet.
+1. **Write the long text first.** `outputs/<post>/stories.md` (local), numbered paragraphs. Do not design yet.
 2. **Mark the seams.** Where does the argument change gear? Those are the frame breaks.
 3. **Give each frame one job:**
    - frame 1: why this exists,

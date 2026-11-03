@@ -110,7 +110,7 @@ The receipt is not an appendix. It is the difference between a poster and a rumo
 
 If a claim is wrong:
 
-1. add a dated row to `outputs/<post>/CORRECTIONS.md`,
+1. add a dated row to `CORRECTIONS.md` (repo root),
 2. publish a correction panel or story,
 3. do not silently edit the PNG.
 

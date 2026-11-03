@@ -26,7 +26,7 @@ You do not need a lawyer. A clear email is enough.
 
 ## What we will publish
 
-- **A factual correction** if the source does not support the claim. This is published in `outputs/<post>/CORRECTIONS.md` and, where possible, as a correction panel.
+- **A factual correction** if the source does not support the claim. This is published in `CORRECTIONS.md` (repo root) and, where possible, as a correction panel.
 - **Your reply**, in full or as a fair summary, if it is relevant to the claim. We may edit for length or clarity, but not for meaning, and we will show you the edit before publishing.
 - **A note** that the claim is disputed, if the evidence is genuinely ambiguous.
 

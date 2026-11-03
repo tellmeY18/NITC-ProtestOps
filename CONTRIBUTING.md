@@ -41,7 +41,7 @@ All three must pass. The sensitive scan is the important one: it blocks roll num
 - [ ] The copy matches the strength of the evidence (no quotes on a paraphrase).
 - [ ] No personal data, fonts, raw PDFs, images or secrets are included.
 - [ ] The source panel / `sources.wiki` is updated.
-- [ ] If a published claim changed, `outputs/<post>/CORRECTIONS.md` is updated.
+- [ ] If a published claim changed, `CORRECTIONS.md` is updated.
 - [ ] The audit passes.
 - [ ] The commit message says what changed and why.
 
@@ -78,23 +78,24 @@ Skills live in `.opencode/skills/<name>/SKILL.md`. A skill is a short, procedura
 
 Keep it under ~150 lines. Link to the long-form docs instead of repeating them.
 
-## Adding an output
+## Posters and outputs
 
-1. Create `outputs/post-NN-slug/`.
-2. Put the editable master, the exported PNGs, `copy.md` and `sources.wiki` there.
-3. Add a contact sheet to `outputs/_review/`.
-4. Add the claim table under `analysis/<topic>/`.
-5. Update the table in `README.md`.
-6. Run the audit.
+Posters are **not committed**. `outputs/` is git-ignored; render and keep yours locally, and publish them on your own channels.
+
+What to contribute instead:
+
+1. A template in `templates/` and a renderer in `tools/render/`.
+2. The claim table under `analysis/<topic>/` for any claim a poster relies on.
+3. A source in `analysis/<topic>/sources.yml`.
+4. Run the audit.
 
 ## Corrections
 
-If you are correcting a published deck:
+If a published claim turns out to be wrong:
 
-1. Do not edit the published PNG in place.
-2. Add a dated entry to `outputs/<post>/CORRECTIONS.md` with the old claim, the new claim, the source and the date.
-3. Re-export the panel and add it as `NN-slug-v2.png`, or re-export the whole deck and bump the folder note.
-4. Open a PR titled `Correct: <claim>`.
+1. Add a dated entry to `CORRECTIONS.md` with the old claim, the new claim, the source and the date.
+2. Fix the row in `analysis/<topic>/claims.yml`.
+3. Open a PR titled `Correct: <claim>`.
 
 We would rather publish a visible correction than quietly rewrite the record.
 

@@ -5,7 +5,7 @@ description: Build a numbered Instagram carousel from a copy deck — panels, in
 
 # Carousel build
 
-Use for a multi-panel feed post. The finished decks in `outputs/post-0*/` are the reference.
+Use for a multi-panel feed post. Render with `tools/render/carousel.rb`; keep the result local (`outputs/` is git-ignored).
 
 ## Shape
 
@@ -17,7 +17,7 @@ Use for a multi-panel feed post. The finished decks in `outputs/post-0*/` are th
 
 ## Steps
 
-1. **Write the copy deck first.** `outputs/<post>/copy.md`, one section per panel:
+1. **Write the copy deck first.** `outputs/<post>/copy.md` (local), one section per panel:
 
    ```markdown
    ## 07 — THE ROOM

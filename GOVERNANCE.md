@@ -46,7 +46,7 @@ Any person named in a deck may submit a reply. Maintainers must:
 - check the reply against the source,
 - publish a correction if the reply shows an error,
 - publish the reply, in full or as a fair summary, if it is relevant,
-- record the exchange in `outputs/<post>/CORRECTIONS.md`.
+- record the exchange in `CORRECTIONS.md` (repo root).
 
 A reply is not a veto. It is a right to be heard, not a right to delete criticism.
 
