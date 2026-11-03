@@ -1,0 +1,227 @@
+topic: "SAC → SGB: what changed and what the record shows"
+updated: 2026-11-03
+notes: >-
+  Locators refer to the OCR text in research/notes/. The OCR preserves page
+  order but not page numbers, so clause numbers are used where possible.
+  Raw Senate/BoG caches are git-ignored; the 93rd-minute excerpt is the only
+  minute text committed, and it contains no personal data.
+
+claims:
+  - id: sac-approved-2008
+    claim: The SAC Constitution was approved by the Institute Senate at its 19th meeting on 11 February 2008.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "cover page"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/02"
+
+  - id: sac-53-councilors
+    claim: The SAC had 53 elected councilors, 40 undergraduate and 13 postgraduate.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "Ch. III, 2"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/02"
+
+  - id: gsb-supreme
+    claim: The 2008 text names the General Student Body as the supreme power, and makes both the SAC and the EC responsible to it.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "Ch. I"
+    quote: "Both the SAC and the EC shall remain responsible to the General Student Body - the supreme power."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/03"
+
+  - id: sac-policy-binding
+    claim: SAC policy was binding on the EC and the GSB unless the GSB overruled it by referendum.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "Ch. III, 1A"
+    quote: "Its policies and guidelines shall be binding on all members of the Executive council (EC) and the GSB, unless the GSB overrules them by a referendum."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/03"
+
+  - id: executives-accountable
+    claim: Every executive was individually, jointly and severally accountable to the SAC.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "Ch. IV, 5B"
+    quote: "All the Executives shall be individually, jointly and severally accountable to the SAC for the implementation of the policies in their respective domains."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/04"
+
+  - id: censure-net-sac
+    claim: The SAC censure motion could be passed against councilors, the Speaker and the EC.
+    source: research/notes/SAC_Constitution_djvu.txt
+    locator: "Ch. VII, censure motion"
+    quote: "The censure motions can be passed against the Councilors, the Speaker, the EC and others accountable to the SAC."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/04"
+
+  - id: sgb-governed-by-ec
+    claim: The 2024 text says the SGB will be governed by the EC, which is headed by the DSW as Rector.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. I"
+    quote: "The EC will be headed by the Dean Student Welfare (DSW), who will be the Rector of SGB. The SGB will be governed by the EC."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/07"
+
+  - id: sgb-apex-label
+    claim: The 2024 text also calls the SGB the apex policy making representative body.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. II, 1"
+    quote: "The Student council named as “Student Governance Body” shall be the apex policy making representative body."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/07 (counter-argument)"
+
+  - id: sgb-dsw-final
+    claim: The 2024 text gives the DSW the final decision on issues arising from the constitution.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. II, 11"
+    quote: "The DSW decision is final."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/09"
+
+  - id: sgb-ec-composition
+    claim: The EC is composed of the DSW, Associate DSW, four faculty coordinators, the NCC, NSS and Sports in-charge, the coordinating faculty, and the elected student members.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. IV, 2"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/08, post-03/09"
+
+  - id: sgb-nine-students-ten-faculty
+    claim: The composition gives ten faculty or ex-officio members and nine elected student members.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. IV, 2"
+    strength: inference
+    checked: 2026-11-03
+    slide: "post-02/08, post-03/09"
+    note: >-
+      Counted from the listed posts: DSW (1), Associate DSW (1), four faculty
+      coordinators (4), NCC/NSS/Sports in-charge (3), coordinating faculty (1)
+      = 10; student members listed A–I = 9.
+
+  - id: sgb-speaker-elected
+    claim: The Speaker is to be from the SGB members and elected by the SGB councilors.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. III, Office Bearers, A(a)"
+    quote: "The Speaker shall be the Presiding Officer on the floor of the SGB and he or she shall be from the SGB members and elected by the Councilors of the SGB."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-03/05"
+
+  - id: sgb-amendment-director
+    claim: Under the 2024 text, an amendment goes to the DSW for a final decision and then to the Director for approval.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "Ch. VIII, 1(d); Ch. VIII, 4"
+    quote: "The DSW shall take final decision and shall forward to the Director for approval."
+    strength: verbatim
+    checked: 2026-11-03
+    slide: "post-02/06"
+
+  - id: senate-93-eight-amendments
+    claim: The 93rd Senate meeting on 17 July 2023 considered and approved eight recommendations on the SAC constitution.
+    source: research/notes/senate-93-excerpt.txt
+    locator: "S93.3.3, Decision"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/05"
+
+  - id: senate-93-three-posts
+    claim: The 93rd Senate approved or created the Joint Secretary, Alumni Affairs Secretary and Career and Placement Affairs Secretary.
+    source: research/notes/senate-93-excerpt.txt
+    locator: "S93.3.3, Decision 1"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/14"
+    note: >-
+      Decision 1 accepts the revised responsibilities for the Joint Secretary
+      and records the chairman's recommendation to split the proposed Alumni
+      and Placement Secretary into Alumni Affairs Secretary and Career and
+      Placement Affairs Secretary.
+
+  - id: sgb-missing-posts
+    claim: The SGB Constitution contains no Joint Secretary, Alumni Affairs Secretary or Career and Placement Affairs Secretary.
+    source: research/notes/SGB_Constitution_djvu.txt
+    locator: "full text; search for each title"
+    strength: inference
+    checked: 2026-11-03
+    slide: "post-02/14"
+    note: >-
+      Verified by searching the full OCR text for each title. Absence in this
+      document is a fact about this document, not proof about every version.
+
+  - id: no-published-approval
+    claim: No published Senate minute (94–106) or BoG minute (65–71) records approving the SGB Constitution.
+    source: research/senate/ and research/bog/ (local cache, git-ignored)
+    locator: "all published minutes in the ranges"
+    strength: inference
+    checked: 2026-11-03
+    slide: "post-02/06"
+    note: >-
+      The claim is about the published record, not about what happened in
+      closed session. Senate 104–106 are partly broken; the search is reliable
+      through the 103rd meeting.
+
+  - id: annexure-iv-unpublished
+    claim: The revised report of the SAC Constitution Committee is not published with the 93rd minutes.
+    source: research/notes/senate-93-excerpt.txt
+    locator: "S93.3.3, final paragraph"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/05 (caveat)"
+    note: >-
+      The minutes say the revised report is available in Annexure IV, but the
+      annexure is not part of the published PDF. The deck therefore limits the
+      claim to the recorded approval of eight amendments.
+
+  - id: seven-gates
+    claim: Structural changes normally pass through a Senate mandate, named committee, peer study, BoAC, staged approval, circulation and BoG referral.
+    source: research/senate/ (local cache, git-ignored)
+    locator: "S96.2.2, S99.6(a)–(c), S100.3, S100.4"
+    strength: documented
+    checked: 2026-11-03
+    slide: "post-02/13"
+    note: >-
+      The locators are recorded here; the raw minutes are not committed because
+      they contain personal data.
+
+  - id: director-2nov-minutes
+    claim: According to the 2 November 2026 minutes, the Director said statements against the institution should have been discussed with him first and that broadcasting them on Instagram tarnished NITC's image.
+    source: "minutes supplied by the editor; not in this repository"
+    locator: "2 November 2026 minutes"
+    strength: paraphrase
+    checked: 2026-11-03
+    slide: "post-03/18"
+    note: >-
+      The document is not in the repo, so the deck paraphrases and uses no
+      quotation marks. Restore quotes only if the exact wording is checked
+      against the minutes.
+
+  - id: dean-godse-post
+    claim: Dean (P&D) Prof. Shaija Andavan posted a comment in January 2024 praising Godse for saving India, was booked by police and released on bail, and was appointed Dean in February 2025 over seniority objections.
+    source: "Onmanorama, Mathrubhumi, Times Now, The News Minute"
+    locator: "four independent reports"
+    strength: reported
+    checked: 2026-11-03
+    slide: "post-03/15"
+    note: >-
+      Exact wording printed on the slide is Proud of Godse for saving India.
+      Booked and released on bail are not a conviction. The post is dated
+      20 January 2024, not 30 January.
+
+  - id: statue-reply
+    claim: The 2 November reply said the statue is not funded by the Institute and is sponsored by an alumnus.
+    source: "reply as quoted in the source manuscript; PDF not seen"
+    locator: "2 November 2026 reply"
+    strength: paraphrase
+    checked: 2026-11-03
+    slide: "post-03/11"
+    note: >-
+      The deck says "the reply said", not "the document proves". No copy of the
+      reply is in the repository.

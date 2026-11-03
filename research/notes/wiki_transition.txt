@@ -1,0 +1,308 @@
+{{DISPLAYTITLE:SAC to SGB Transition}}
+
+This page documents the key differences between the '''Students Affairs Council (SAC) Constitution''' (2008) and the '''Student Governance Body (SGB) Constitution''' that replaced it, serving as a reference for understanding the transition in student governance at NIT Calicut.
+
+== Overview of Changes ==
+
+The transition from SAC to SGB represents a fundamental restructuring of student governance at NIT Calicut. The most significant change is the shift from a '''student-led autonomous model''' (SAC as the supreme policy-making body with the EC as its subordinate executing arm) to a '''faculty-guided governance model''' (SGB managed by students under the guidance and governance of the EC, which includes faculty members and is headed by the DSW).
+
+== Structural Comparison ==
+
+{| class="wikitable"
+|-
+! Aspect
+! SAC Constitution (2008)
+! SGB Constitution (Current)
+|-
+| Governing Body
+| Student Affairs Council (SAC) — autonomous student policy body
+| Student Governance Body (SGB) — managed by students under EC guidance
+|-
+| EC Role
+| EC executes SAC policies; accountable to SAC
+| EC includes DSW, faculty; governs over SGB; DSW is Rector
+|-
+| Faculty in EC
+| None (Student Advisor only, non-voting)
+| DSW (Rector), Associate DSW, 4 faculty coordinators, NCC/NSS/Sports in-charge (ex-officio)
+|-
+| Policy Approval
+| SAC sets policies; EC implements
+| SGB proposes policies; EC reviews and approves
+|-
+| Final Authority
+| SAC policies binding unless overruled by GSB referendum
+| DSW decision is final on all matters
+|-
+| Amendments Approved By
+| Institute Senate
+| Director, NIT Calicut (via DSW)
+|}
+
+== Composition Changes ==
+
+{| class="wikitable"
+|-
+! Aspect
+! SAC (2008)
+! SGB (Current)
+|-
+| Total Councilors
+| 53 (40 UG, 13 PG)
+| ~90 (significantly expanded)
+|-
+| B.Tech Councilors
+| 21 Branch Councilors + 3 first-year
+| 40 Branch Councilors
+|-
+| B.Arch Councilors
+| 1 first-year + 4 per year = 5
+| 5 (one per year)
+|-
+| M.Tech Councilors
+| 5 (one per department)
+| 7+7 (expanded)
+|-
+| M.Sc Councilors
+| 1 (M.Sc.Tech)
+| 1+1+1 (per department)
+|-
+| MCA Councilors
+| 3 (one per year)
+| Not listed separately; MBA added (1+1)
+|-
+| PhD Councilors
+| 2 (1 Engineering + 1 Sciences)
+| 13 (per department)
+|-
+| Hostel Representation
+| Hostel Secretaries (11)
+| Hostel Representatives (11)
+|-
+| Day Scholars
+| 2 (1 boy + 1 girl)
+| Removed (no separate representation)
+|-
+| M.Plan
+| Not applicable
+| 1+1 councilors added
+|-
+| Staff Advisor
+| Nominated by Director from panel suggested by Dean of Students
+| Two Faculty members nominated by DSW
+|}
+
+== Executive Council Changes ==
+
+{| class="wikitable"
+|-
+! SAC EC
+! SGB EC
+! Remarks
+|-
+| General Secretary
+| General Secretary
+| Same role
+|-
+| Academic Affairs Secretary (AAS)
+| UG Academic Activities Secretary (UGAS)
+| Split into UG and PG
+|-
+| ''(Not present)''
+| PG Academic Activities Secretary (PGAS)
+| New position
+|-
+| Research Affairs Secretary (RAS)
+| Research Activities Secretary (RAS)
+| Same role, different electorate
+|-
+| Hostel Affairs Secretary (HAS)
+| Hostel Activities Secretary (HAS)
+| Reduced scope (no CMH/MC/GDSC)
+|-
+| Sports Secretary (SS)
+| Sports Activities Secretary (SAS)
+| Same role
+|-
+| Cultural Affairs Secretary (CAS)
+| Cultural Activities Secretary (CAS)
+| Same role
+|-
+| Science & Technical Affairs Secretary (TAS)
+| Science & Technology Activities Secretary (TAS)
+| Same role
+|-
+| Joint Secretary
+| ''Removed''
+| Position eliminated
+|-
+| Chief Student Editor
+| ''Removed''
+| Position eliminated
+|-
+| ''(Not present)''
+| Finance Secretary (FS)
+| New position (replaces FC Convener)
+|-
+| Placement Secretary (co-opted)
+| ''Removed''
+| SPC/Placement not in SGB EC
+|-
+| colspan="3" | '''Reservation Policy (NEW in SGB)'''
+|-
+| None
+| 9 seats: 66.66% Open, 33.34% Female; Home State/Non-Home State distribution; 2 seats reserved for SEDG
+| Reservation introduced
+|}
+
+== Key Differences in Roles and Responsibilities ==
+
+=== Speaker ===
+* '''SAC:''' Elected by SAC councilors; must be from GSB and NOT a SAC Councilor; informs GSB 48 hours in advance of meetings; document production to representatives of 25 signatories
+* '''SGB:''' Elected from SGB members by SGB councilors; informs GSB 8 hours in advance; document production to representatives of 50 signatories; faculty members get documents within 24 hours
+
+=== General Secretary ===
+* '''SAC:''' GSC includes Joint Secretary; 5 members total
+* '''SGB:''' GSC has no Joint Secretary; 4 members total
+
+=== Academic Affairs ===
+* '''SAC:''' Single Academic Affairs Secretary (AAS) for all students; AAC includes MCA representative
+* '''SGB:''' Split into UGAS (undergraduate) and PGAS (postgraduate); Academic Council (AC) includes MBA representative; no MCA representative
+
+=== Research Affairs ===
+* '''SAC:''' Same basic structure; RAC includes MSc.Tech; RAS reports to SAC
+* '''SGB:''' RC includes MSc, M.Tech; RAS reports to SGB; coordinates with UGAS/PGAS (not AAS)
+
+=== Hostel Affairs ===
+* '''SAC:''' HAS manages CMH (Maintenance), MC (Mess), GDSC (Gardens); is principal student representative in Hostel Management; 4 student representatives to Hostel Management specified
+* '''SGB:''' HAS simply "follows guidelines specified by the hostel office"; no CMH/MC/GDSC structure; reports to SGB on hostel activities
+
+=== Sports ===
+* '''SAC:''' CSA has both Institute and Inter-hostel committees; interval between meetings for both
+* '''SGB:''' Only CSA Institute mentioned; no separate Inter-hostel CSA
+
+=== Campus Publications ===
+* '''SAC:''' Full chapter (Chapter VI) with detailed editorial board appointment process, publication committee, dispute resolution, SAC oversight and censure powers
+* '''SGB:''' Reduced to brief mention in Chapter II (Section 9); no dedicated chapter; no editorial board or publication committee details
+
+=== Hostel Councils ===
+* '''SAC:''' Full chapter (Chapter V) with detailed Hostel Council composition, 10 sections covering all secretaries, GBM procedures, reporting requirements
+* '''SGB:''' No dedicated chapter on Hostel Councils; hostel matters briefly covered under HAS role
+
+== Election Changes ==
+
+{| class="wikitable"
+|-
+! Aspect
+! SAC
+! SGB
+|-
+| Minimum CGPA
+| 7.0
+| 6.5 (reduced)
+|-
+| Citizenship requirement
+| Not specified
+| Must be Indian citizen
+|-
+| Campaigning method
+| Physical posters/banners (EO-approved)
+| Only digital campaigning allowed
+|-
+| Campaigning end
+| 24 hours before polls
+| 48 hours before polls
+|-
+| Disqualification for malpractice
+| Not specified
+| Explicitly disqualifies for exam malpractice
+|-
+| Disqualification for parochial campaigning
+| Not specified
+| Prohibits canvassing on religion/caste/state lines
+|-
+| NOTA option
+| Not present
+| Introduced; re-election if NOTA wins; DSW nomination if NOTA wins again
+|-
+| Electorate — PG Academic Secretary
+| GSB (all students)
+| PG Students only
+|-
+| Electorate — Research Secretary
+| GSB (all students, but PhD/M.Tech/MCA/MSc)
+| PhD Scholars only
+|-
+| Election Officer
+| Faculty member appointed by Dean of Students; Deputy EO may be appointed
+| Faculty member appointed by Dean of Students; no Deputy EO mentioned
+|-
+| Grievances Committee
+| Dean-Students, EO, Speaker, SAC nominee
+| EO, 2 faculty (nominated by Dean SW), 2 SGB members
+|-
+| Re-election — EC after Nov 1
+| Dean of Students nominates with EC + Speaker consultation
+| Same, but Speaker of SGB
+|}
+
+== Amendment Process Changes ==
+
+{| class="wikitable"
+|-
+! Aspect
+! SAC
+! SGB
+|-
+| Approval authority
+| Institute Senate
+| Director, NIT Calicut (via DSW)
+|-
+| Initial amendment freeze
+| 2 years from Senate approval
+| 2 years from Director's approval
+|-
+| GSB-initiated amendment
+| Signed memo to Speaker; referendum conducted
+| Signed memo to DSW; DSW takes final decision
+|-
+| SAC/SGB-initiated amendment
+| Majority of SAC; referendum within SAC
+| Majority of SGB + 2 faculty members; DSW final decision
+|-
+| Faculty-initiated amendment
+| Senate member proposes to Dean of Students; forwarded to Speaker
+| Faculty member of SGB/EC proposes to DSW; DSW final decision
+|}
+
+== Summary of Structural Philosophy ==
+
+The SAC Constitution established a '''Westminster-style parliamentary model''' where:
+* SAC (legislature) sets policy
+* EC (executive) implements policy and is accountable to SAC
+* GSB is the supreme authority with referendum power
+* SAC has oversight, censure, and impeachment powers over EC
+
+The SGB Constitution establishes a '''corporate governance model''' where:
+* EC (including faculty) governs over SGB
+* SGB proposes policies but EC reviews and approves
+* DSW has final decision-making authority
+* Student executives are accountable to SGB but operate under EC guidance
+* Faculty presence is institutionalized in both SGB meetings and EC
+
+== Deleted SAC Provisions ==
+
+The following provisions from the SAC Constitution are absent in the SGB Constitution:
+
+# '''Board of Students (Chapter III, Section N)''' — Student representatives to Board of Students
+# '''Consultative Committee (Chapter II, Section 10)''' — Constitutional interpretation committee
+# '''Interaction Chart (Chapter II, Section 11)''' — SAC interaction with official bodies
+# '''Placement Council (Chapter IV, Section 8)''' — SPC and Placement Secretary
+# '''Joint Secretary position''' — Removed from EC
+# '''Chief Student Editor position''' — Removed from EC
+# '''Campus Publications chapter''' — Reduced from full chapter to 2 sections
+# '''Hostel Councils chapter''' — Entire chapter removed
+# '''Hostel GBM provisions''' — Quorum (20%), extraordinary meetings (25% requisition), minutes distribution
+# '''Senate approval requirement''' for amendments — Replaced by Director's approval
+
+[[Category:Student Government]]

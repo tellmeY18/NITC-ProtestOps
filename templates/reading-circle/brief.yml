@@ -1,0 +1,34 @@
+slug: reading-circle
+size: 1080x1920
+qr_url: "https://wiki.fosscell.org/Sources_SAC_SGB"
+qr_label: "ALL SOURCES. SCAN."
+
+kicker: A CALL FOR MASS READING
+headline: "READ IT. / **TOGETHER.**"
+body: >-
+  Alone. With friends. With your class, your club, your hostel floor.
+  Read the SAC and SGB constitutions side by side. Talk about what is missing.
+
+steps:
+  - "1 READ — SAC (2008) + SGB (2024) CONSTITUTIONS"
+  - "2 DISCUSS — WHAT CHANGED. WHAT IS MISSING."
+  - "3 CHECK — RECENT SENATE + BOG MINUTES"
+  - "4 SHARE — WHAT YOU LEARNED"
+
+places:
+  - GREEN AMPHI
+  - OAT
+  - MAIN BUILDING
+  - ABC
+  - HOSTELS
+  - DEPARTMENTS
+  - ANYWHERE
+
+# Leave blank for a fill-in template, or set per circle:
+#   ruby tools/render/reading_circle.rb templates/reading-circle/brief.yml --when "FRI 6 PM" --where "OAT"
+when: ""
+where: ""
+
+rules: "NO PERMISSION NEEDED. ANYONE CAN ORGANISE. ANYONE CAN JOIN."
+tag_line: "TAG US WITH YOUR READING CIRCLE."
+slogan: "LET'S BRING BACK SAC."

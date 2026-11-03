@@ -1,0 +1,6 @@
+# Everything here is local-only. The root .gitignore ignores this directory;
+# this file exists so the empty folder can be committed and the rule is
+# impossible to miss.
+*
+!.gitignore
+!README.md

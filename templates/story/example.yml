@@ -1,0 +1,27 @@
+slug: post-04-stories
+title: "Day 1 — stories"
+size: 1080x1920
+
+frames:
+  - index: "1/6"
+    kicker: DAY 1
+    headline: "NOT A SINGLE / **STEP BACK.**"
+    body: >-
+      2 Nov 2026. The Director met students. The Speaker was thrown out.
+      Dean P&D shows yet another bad judgement call.
+    prompt: "CONTINUE →"
+  - index: "2/6"
+    kicker: 2 NOVEMBER — MBH 2
+    headline: "LATHIS AT / A STUDENT / MEETING."
+    body: >-
+      Students turned up in large numbers. Security turned up carrying
+      lathis. We do not fear your lathis, nor your muscles.
+    prompt: "CONTINUE →"
+  - index: "3/6"
+    kicker: THE FIRST CRACK
+    headline: "**\"THE SPEAKER\"** / WAS SHOWN / THE DOOR."
+    body: >-
+      Students were asked to talk about their problems. Then the body
+      that speaks for them was shown the door.
+    inversion: white
+    prompt: "PART 2 NEXT →"

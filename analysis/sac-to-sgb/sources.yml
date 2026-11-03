@@ -1,0 +1,79 @@
+topic: "SAC → SGB"
+updated: 2026-11-03
+
+sources:
+  - id: sac-2008
+    title: "SAC Constitution (2008)"
+    url: "https://archive.org/details/sac-constitution"
+    local: "research/notes/SAC_Constitution_djvu.txt"
+    retrieved: 2026-11-01
+    type: primary
+    licence: "public document; quoted for criticism and review"
+
+  - id: sgb-2024
+    title: "SGB Constitution (2024)"
+    url: "https://archive.org/details/sgb-constitution"
+    local: "research/notes/SGB_Constitution_djvu.txt"
+    retrieved: 2026-11-01
+    type: primary
+    licence: "public document; quoted for criticism and review"
+
+  - id: senate-93
+    title: "Minutes of the 93rd meeting of the Senate, 17 July 2023 — item S93.3.3"
+    url: "https://nitc.ac.in/minutes-and-reports/senate-minutes"
+    local: "research/notes/senate-93-excerpt.txt"
+    retrieved: 2026-11-01
+    type: primary
+    licence: "public document; excerpt contains no personal data"
+
+  - id: senate-index
+    title: "Senate minutes index"
+    url: "https://nitc.ac.in/minutes-and-reports/senate-minutes"
+    local: "research/senate/ (git-ignored)"
+    retrieved: 2026-11-03
+    type: primary
+    licence: "public documents; cache contains personal data, not redistributed"
+
+  - id: bog-index
+    title: "Board of Governors minutes"
+    url: "https://nitc.ac.in/minutes-and-reports"
+    local: "research/bog/ (git-ignored)"
+    retrieved: 2026-11-03
+    type: primary
+    licence: "public documents; cache contains personal data, not redistributed"
+
+  - id: fosscell-wiki
+    title: "SAC to SGB Transition"
+    url: "https://wiki.fosscell.org/SAC_To_SGB_Transition"
+    local: "research/notes/wiki_transition.txt"
+    retrieved: 2026-11-01
+    type: secondary
+    licence: "CC BY-SA; attribution to Fosscell and the wiki authors"
+
+  - id: onmanorama
+    title: "Onmanorama reporting on the Dean (P&D) post and case"
+    url: "https://www.onmanorama.com/"
+    retrieved: 2026-11-03
+    type: corroborating
+    licence: "news reporting; short quotes, linked"
+
+  - id: mathrubhumi
+    title: "Mathrubhumi reporting on the Dean (P&D) post and case"
+    url: "https://www.mathrubhumi.com/"
+    retrieved: 2026-11-03
+    type: corroborating
+    licence: "news reporting; short quotes, linked"
+
+  - id: times-now
+    title: "Times Now reporting on the Dean (P&D) post and case"
+    url: "https://www.timesnownews.com/"
+    retrieved: 2026-11-03
+    type: corroborating
+    licence: "news reporting; short quotes, linked"
+
+  - id: news-minute
+    title: "The News Minute reporting on the Dean (P&D) post and case"
+    url: "https://www.thenewsminute.com/"
+    retrieved: 2026-11-03
+    type: corroborating
+    licence: "news reporting; short quotes, linked"

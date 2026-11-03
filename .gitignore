@@ -1,0 +1,74 @@
+# ── Private material ─────────────────────────────────────────────────────────
+# Never commit anything in private/. It is for local-only notes, unredacted
+# documents, correspondence, and anything you would not hand to a stranger.
+private/*
+!private/.gitignore
+!private/README.md
+
+# ── Raw research cache ───────────────────────────────────────────────────────
+# Scraped minutes, HTML dumps and PDFs contain student names, roll numbers,
+# phone numbers, emails and disciplinary/appeal details. Cache them locally;
+# publish only the extracted, non-personal excerpts under research/notes/.
+research/senate/
+research/bog/
+research/raw/
+research/cache/
+research/*.html
+research/*_urls.txt
+research/*.pdf
+
+# ── Sensitive media ──────────────────────────────────────────────────────────
+# WhatsApp screenshots, QR scans and anything of unknown provenance.
+scan.png
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg
+*.qr.png
+
+# ── Proprietary fonts ────────────────────────────────────────────────────────
+# Helvetica Neue, DIN Condensed and every other licensed face stay out of git.
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+fonts/
+assets/fonts/
+
+# ── Editor / OS noise ────────────────────────────────────────────────────────
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
+
+# ── Build artefacts and caches ───────────────────────────────────────────────
+build/
+outputs/*
+dist/
+tmp/
+.cache/
+.sass-cache/
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# ── Archives and duplicates ──────────────────────────────────────────────────
+# Zips duplicate exports and are not source. Regenerate from the project files.
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json

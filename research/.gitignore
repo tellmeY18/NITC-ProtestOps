@@ -1,0 +1,15 @@
+# Raw, unredacted research stays local.
+#
+# The Senate and Board of Governors minute caches are the highest-risk material
+# in this project: 1,843 roll-number matches, plus phone numbers, emails and
+# disciplinary/appeal cases. They are never committed.
+senate/
+bog/
+raw/
+cache/
+*.html
+*_urls.txt
+*.pdf
+*.txt
+!notes/*.txt
+!notes/*.md

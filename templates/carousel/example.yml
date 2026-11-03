@@ -1,0 +1,36 @@
+slug: post-04-example
+title: "A short carousel"
+palette: black
+size: 1080x1080
+
+panels:
+  - slug: title
+    kicker: A CRASH COURSE
+    headline: "SAC TO SGB / FOR DUMMIES."
+    body: >-
+      What we lost, why it matters, and what students can do about it.
+    footer: RESEARCHED FROM PUBLIC DOCUMENTS
+
+  - slug: 2008
+    kicker: 11 FEBRUARY 2008
+    headline: "STUDENTS WROTE / A CONSTITUTION. / **THE SENATE / APPROVED IT.**"
+    body: >-
+      The 19th meeting of the Institute Senate. Fifty-three elected
+      councilors. One policy body for the whole campus.
+    footer: "SOURCE: SAC CONSTITUTION, COVER"
+
+  - slug: turn
+    kicker: SO YOU MADE IT THIS FAR
+    headline: "YOU'RE NO / **DUMMY.**"
+    body: >-
+      Read the documents. Check the clauses. Decide for yourself.
+    inversion: red
+    footer: SOURCES IN THE LAST PANEL
+
+  - slug: sources
+    kicker: DON'T TAKE OUR WORD FOR IT
+    headline: "ALL OF IT / IS PUBLIC."
+    body: >-
+      SAC Constitution 2008 · SGB Constitution 2024 · 93rd Senate minutes
+      S93.3.3 · Senate minutes 46–106 · Board of Governors 65–71.
+    footer: SCAN FOR EVERY SOURCE

@@ -1,0 +1,29 @@
+name: audit
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      - name: Sensitive-data scan
+        run: ruby tools/audit/sensitive_scan.rb .
+
+      - name: Claim tables
+        run: ruby tools/audit/claims_check.rb analysis/**/claims.yml
+
+      - name: Markdown links (best effort)
+        run: |
+          if command -v rg >/dev/null; then
+            echo "checking for TODO placeholders"
+            ! rg -n "TODO|FIXME" README.md AGENTS.md ETHICS.md FACTCHECK.md docs/ analysis/
+          fi

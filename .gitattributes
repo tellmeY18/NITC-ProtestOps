@@ -1,0 +1,26 @@
+# Normalise line endings in text, never touch binaries.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.pcraft binary
+*.zip binary
+
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.rb text eol=lf
+*.nix text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.sh text eol=lf
+
+# Keep generated exports out of diffs.
+outputs/**/*.png -diff
+outputs/**/*.pcraft -diff
