@@ -1,5 +1,5 @@
 {
-  description = "NITC Protest Ops — scrape, verify, design and publish student-governance documents";
+  description = "NITC ProtestOps — scrape, verify, design and publish student-governance documents";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
@@ -49,7 +49,7 @@
             export FONTCONFIG_PATH="${pkgs.fontconfig.out}/etc/fonts"
 
             echo ""
-            echo "  NITC Protest Ops"
+            echo "  NITC ProtestOps"
             echo "  ─────────────────────────────────────────────"
             echo "  ruby        $(ruby --version | cut -d' ' -f2)"
             echo "  weasyprint  $(weasyprint --version)"

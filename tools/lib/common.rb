@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# Shared helpers for the NITC Protest Ops tools.
+# Shared helpers for the NITC ProtestOps tools.
 # Ruby stdlib only — no gems, no Bundler.
 
 require "fileutils"

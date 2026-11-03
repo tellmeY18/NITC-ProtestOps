@@ -4,7 +4,7 @@ The project currently has one founding maintainer. Add yourself here when you ta
 
 | Name | Role | Contact |
 |---|---|---|
-| _(Vysakh Premkumar)_ | maintainer, release, right of reply | open an issue, or use the private contact listed on the GitHub profile |
+| Vysakh Premkumar ([@tellmeY18](https://github.com/tellmeY18)) | maintainer, release, right of reply | GitHub issues; private matters via the contact on the GitHub profile |
 
 ## What a maintainer does
 

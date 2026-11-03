@@ -1,4 +1,4 @@
-# NITC Protest Ops
+# NITC ProtestOps
 
 **A student-run toolkit for documenting, verifying and publishing what happens at NIT Calicut.**
 
@@ -44,8 +44,8 @@ Renders land in `outputs/_review/` (local). Public corrections go in [`CORRECTIO
 You need [Nix](https://nixos.org/) with flakes enabled. Nothing else is required — no Chrome, no Python, no global Ruby gems.
 
 ```bash
-git clone https://github.com/<org>/NITC-Protest-Ops.git
-cd NITC-Protest-Ops
+git clone https://github.com/tellmeY18/NITC-ProtestOps.git
+cd NITC-ProtestOps
 nix develop
 ```
 
@@ -138,7 +138,7 @@ If you are a person named in a deck and you believe something is wrong, see [`SE
 
 **GNU General Public License v3.0 or later** for the whole repository — code, templates and documentation. See [`LICENSE`](LICENSE).
 
-You may copy, modify and redistribute this work, including commercially, provided you preserve the licence and make the source available. Derivative decks must carry the same licence. Attribution to *NITC Protest Ops* is requested but is not an extra condition.
+You may copy, modify and redistribute this work, including commercially, provided you preserve the licence and make the source available. Derivative decks must carry the same licence. Attribution to *NITC ProtestOps* is requested but is not an extra condition.
 
 Third-party documents quoted here (constitutions, minutes, news reports) remain the property of their authors and are used for criticism, review and reporting. Source URLs are recorded in [`analysis/`](analysis/) and in each deck's `sources.wiki`.
 

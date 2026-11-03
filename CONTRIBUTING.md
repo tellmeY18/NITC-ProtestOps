@@ -17,8 +17,8 @@ Read [`ETHICS.md`](ETHICS.md), [`FACTCHECK.md`](FACTCHECK.md) and [`AGENTS.md`](
 ## Development setup
 
 ```bash
-git clone https://github.com/<org>/NITC-Protest-Ops.git
-cd NITC-Protest-Ops
+git clone https://github.com/tellmeY18/NITC-ProtestOps.git
+cd NITC-ProtestOps
 nix develop
 ```
 

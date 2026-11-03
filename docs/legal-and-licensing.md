@@ -13,7 +13,7 @@ What that means in practice:
 - You must keep the licence and the copyright notices.
 - There is no warranty.
 
-The decks are political speech, not software, but the same licence applies. A derivative deck must carry the same licence. Attribution to *NITC Protest Ops* is requested, not required.
+The decks are political speech, not software, but the same licence applies. A derivative deck must carry the same licence. Attribution to *NITC ProtestOps* is requested, not required.
 
 ## 2. Third-party documents
 

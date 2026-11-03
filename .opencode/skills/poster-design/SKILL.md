@@ -1,6 +1,6 @@
 ---
 name: poster-design
-description: Build a single 1080×1080 poster in the NITC Protest Ops visual system using HTML/CSS and WeasyPrint, with no browser and no proprietary fonts.
+description: Build a single 1080×1080 poster in the NITC ProtestOps visual system using HTML/CSS and WeasyPrint, with no browser and no proprietary fonts.
 ---
 
 # Poster design

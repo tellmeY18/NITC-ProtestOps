@@ -12,7 +12,7 @@ require "uri"
 require_relative "../lib/common"
 
 module Scrape
-  USER_AGENT = "NITC-Protest-Ops/0.1 (student research; contact via repository)"
+  USER_AGENT = "NITC-ProtestOps/0.1 (student research; contact via repository)"
   MAX_RETRIES = 2
 
   module_function

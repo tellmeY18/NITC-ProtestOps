@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Instructions for AI agents working in **NITC Protest Ops**.
+Instructions for AI agents working in **NITC ProtestOps**.
 
 This file is the contract. Read it before touching anything. When a user request conflicts with this file, say so and ask — do not quietly override it.
 
