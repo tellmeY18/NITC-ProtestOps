@@ -69,6 +69,50 @@ ruby tools/render/poster.rb templates/poster/example.yml
 
 ---
 
+## Use it with an AI agent
+
+The rules live in one file, [`AGENTS.md`](AGENTS.md), and the workflows live in six skills under [`.opencode/skills/`](.opencode/skills/) (`scrape-sources`, `fact-check`, `poster-design`, `carousel-build`, `story-split`, `publish`). Any agent that reads `AGENTS.md` follows the same hard rules: no personal data, no fonts, no unsourced claims, nothing under `outputs/` committed.
+
+**Every agent, first step:** clone the repo, then run commands inside the dev shell so the tools exist.
+
+```bash
+git clone https://github.com/tellmeY18/NITC-ProtestOps.git
+cd NITC-ProtestOps
+nix develop                      # interactive shell, or:
+nix develop --command ruby tools/audit/sensitive_scan.rb .
+```
+
+| Agent | How it picks up the rules | Skills | Setup |
+|---|---|---|---|
+| **OpenCode** | reads `AGENTS.md` | reads `.opencode/skills/` | open the folder in OpenCode; nothing else |
+| **Claude Code** | reads `CLAUDE.md`, which imports `AGENTS.md` | reads `.claude/skills/`, a link to `.opencode/skills/` | run `claude` in the repo root |
+| **Codex (CLI / VS Code extension)** | reads `AGENTS.md` | no skill folder; say "follow `.opencode/skills/<name>/SKILL.md`" | run `codex` in the repo root |
+| **VS Code + GitHub Copilot** | reads `AGENTS.md` when agent instructions are enabled | no skill folder; attach the `SKILL.md` as context | open the folder in VS Code |
+| **Cursor, Windsurf, others** | most read `AGENTS.md`; if yours does not, add it to the project rules or paste it as the first message | attach the `SKILL.md` you need | copy or link `AGENTS.md` into the tool's rules file |
+
+Tool support changes quickly. If your agent does not pick up `AGENTS.md`, start the session with this prompt:
+
+```text
+Read AGENTS.md, ETHICS.md and FACTCHECK.md first. Follow them.
+Then read .opencode/skills/<skill>/SKILL.md for this task.
+Run all commands with: nix develop --command <command>
+```
+
+### What to ask for
+
+- **Check a claim:** "Use the `fact-check` skill. Add this claim to `analysis/sac-to-sgb/claims.yml` with a locator, then run the claims check."
+- **Make a poster:** "Use the `poster-design` skill. Render `templates/poster/example.yml` with my copy."
+- **Reading-circle story:** `nix develop --command ruby tools/render/reading_circle.rb templates/reading-circle/brief.yml --when "FRI 6 PM" --where "OAT"`
+- **Before you push:** "Use the `publish` skill and run all three audits."
+
+### Guardrails that hold for every agent
+
+- Raw minutes in `research/senate/` and `research/bog/` contain personal data. They are git-ignored; never ask an agent to paste or commit them.
+- Review every diff before you commit. An agent can be wrong; the audits catch personal data, not bad claims.
+- Posters stay in `outputs/` on your machine. `outputs/*` is git-ignored on purpose.
+
+---
+
 ## Repository map
 
 ```
