@@ -1,8 +1,12 @@
 # Convenience targets. Everything here also works as a direct ruby command.
 
-.PHONY: help audit claims poster carousel story clean
+.PHONY: sources help audit claims poster carousel story clean
+
+sources:
+	ruby tools/scrape/fetch_sources.rb
 
 help:
+	@echo "make sources   fetch the full NITC PDF corpus into research/raw/sources"
 	@echo "make audit      run the sensitive-data and claim-table checks"
 	@echo "make poster     render templates/poster/example.yml"
 	@echo "make carousel   render templates/carousel/example.yml"

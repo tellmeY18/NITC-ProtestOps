@@ -6,6 +6,22 @@ This file is the contract. Read it before touching anything. When a user request
 
 ---
 
+## 0. Initialization (run first, every fresh checkout)
+
+The reference corpus (270 public NITC PDFs: Senate, BoG, FC and BWC minutes, Acts and Statutes, RTI disclosures, annual and convocation reports) is **not in git**. Before any research, fact-check or claim work, make sure it exists locally:
+
+```bash
+ruby tools/scrape/fetch_sources.rb          # fetch what is missing (~600 MB, resumable)
+ruby tools/scrape/fetch_sources.rb --verify # check SHA-256 of what you have
+```
+
+- Files land in `research/raw/sources/{rti,minutes}/files/` — git-ignored; never commit them.
+- Every file is checked against a recorded SHA-256. A mismatch means NITC changed the document: report it, do not silently accept it.
+- If `research/raw/sources/` is missing or incomplete, run the fetch before answering anything that depends on a document. Do not cite from memory.
+- `make sources` runs the same fetch. The script is polite (one request at a time) and safe to re-run.
+
+---
+
 ## 1. What this repository is
 
 A public, GPL-licensed toolkit for student journalists and organisers at NIT Calicut. It contains:
@@ -56,6 +72,7 @@ If a task requires breaking one of these, stop and explain why.
 | `analysis/` | claim → source tables | yes |
 | `research/notes/` | reviewed, non-personal excerpts | yes |
 | `research/senate/`, `research/bog/` | raw cache | **no** |
+| `research/raw/sources/` | full PDF corpus from `fetch_sources.rb` | **no** |
 | `outputs/` | local renders and posters | **no** |
 | `private/` | local-only | **no** |
 
